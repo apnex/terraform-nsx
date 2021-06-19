@@ -1,6 +1,6 @@
 terraform {
 	required_providers {
-		vsphere = "~> 1.26.0"
+		vsphere = "~> 2.0"
 	}
 }
 provider "vsphere" {
@@ -21,10 +21,10 @@ module "nsx-manager" {
 	network		= "vss-vmnet"
 
 	### appliance variables
-	vm_name		= "nsx.lab01.one"
+	vm_name		= "nsxm.lab01.one"
 	remote_ovf_url	= "http://172.16.10.1:9000/iso/nsx-unified-appliance-3.1.2.1.0.17975796.ova"
 	properties	= {
-		nsx_hostname		= "nsx.lab01.one"
+		nsx_hostname		= "nsxm.lab01.one"
 		nsx_role		= "NSX Manager"
 		nsx_ip_0		= "172.16.10.117"
 		nsx_netmask_0		= "255.255.255.0"
