@@ -1,0 +1,13 @@
+{
+	"dns": "172.16.10.1",
+	"domain": "lab01",
+	"endpoints": [
+		{
+			"type": "nsx",
+			"hostname": "nsxm.lab01.one",
+			"username": "admin",
+			"password": "VMware1!SDDC",
+			"online": "true"
+		}
+	]
+}
