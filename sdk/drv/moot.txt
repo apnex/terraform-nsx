@@ -1,0 +1,30 @@
+{
+	"results": [
+		{
+			"server": "vcenter.lab01.one",
+			"origin_type": "vCenter",
+			"credential": {
+				"thumbprint": "81:FA:C8:92:AE:23:4E:C9:98:98:BB:64:07:98:03:60:99:53:DF:CA:E7:54:57:00:93:62:26:9D:D9:30:6C:84",
+				"credential_type": "UsernamePasswordLoginCredential"
+			},
+			"create_service_account": false,
+			"set_as_oidc_provider": true,
+			"access_level_for_oidc": "FULL",
+			"reverse_proxy_https_port": 443,
+			"resource_type": "ComputeManager",
+			"id": "eaa84a50-208c-46a8-8eb0-6d729d9145d2",
+			"display_name": "vcenter.lab01.one",
+			"description": "",
+			"_create_time": 1624863881907,
+			"_last_modified_user": "admin",
+			"_last_modified_time": 1624863881907,
+			"_create_user": "admin",
+			"_protection": "NOT_PROTECTED",
+			"_revision": 0
+		}
+	],
+	"result_count": 1,
+	"sort_by": "display_name",
+	"sort_ascending": true
+}
+

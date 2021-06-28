@@ -1,0 +1,15 @@
+HTTP/1.1 200 
+Set-Cookie: JSESSIONID=94DFBD37E536B4E23E286FF23F390111; Path=/; Secure; HttpOnly
+X-XSRF-TOKEN: 0b27f97f-4583-45ce-a745-ee954bc1cc64
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Content-Type: application/json
+Content-Length: 107
+Date: Mon, 28 Jun 2021 12:04:13 GMT
+Server: NSX
+

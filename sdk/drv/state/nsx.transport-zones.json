@@ -1,0 +1,83 @@
+{
+	"results": [
+		{
+			"transport_type": "OVERLAY",
+			"host_switch_name": "nsxHostSwitch",
+			"host_switch_id": "1d6012a7-3cae-4edc-b7b9-8e7f7cce2a49",
+			"transport_zone_profile_ids": [
+				{
+					"resource_type": "BfdHealthMonitoringProfile",
+					"profile_id": "52035bb3-ab02-4a08-9884-18631312e50a"
+				}
+			],
+			"host_switch_mode": "STANDARD",
+			"nested_nsx": false,
+			"is_default": true,
+			"resource_type": "TransportZone",
+			"id": "1b3a2f36-bfd1-443e-a0f6-4de01abc963e",
+			"display_name": "nsx-overlay-transportzone",
+			"_create_time": 1624433496790,
+			"_last_modified_user": "system",
+			"_last_modified_time": 1624433496790,
+			"_system_owned": false,
+			"_create_user": "system",
+			"_protection": "NOT_PROTECTED",
+			"_revision": 0,
+			"_schema": "/v1/schema/TransportZone"
+		},
+		{
+			"transport_type": "VLAN",
+			"host_switch_name": "nsxHostSwitch",
+			"host_switch_id": "1d6012a7-3cae-4edc-b7b9-8e7f7cce2a49",
+			"transport_zone_profile_ids": [
+				{
+					"resource_type": "BfdHealthMonitoringProfile",
+					"profile_id": "52035bb3-ab02-4a08-9884-18631312e50a"
+				}
+			],
+			"host_switch_mode": "STANDARD",
+			"nested_nsx": false,
+			"is_default": true,
+			"resource_type": "TransportZone",
+			"id": "a95c914d-748d-497c-94ab-10d4647daeba",
+			"display_name": "nsx-vlan-transportzone",
+			"_create_time": 1624433497104,
+			"_last_modified_user": "system",
+			"_last_modified_time": 1624433497104,
+			"_system_owned": false,
+			"_create_user": "system",
+			"_protection": "NOT_PROTECTED",
+			"_revision": 0,
+			"_schema": "/v1/schema/TransportZone"
+		},
+		{
+			"transport_type": "VLAN",
+			"host_switch_name": "hs-fabric",
+			"host_switch_id": "2ac2af34-4a5b-4426-87f7-29d1fdc747bd",
+			"transport_zone_profile_ids": [
+				{
+					"resource_type": "BfdHealthMonitoringProfile",
+					"profile_id": "52035bb3-ab02-4a08-9884-18631312e50a"
+				}
+			],
+			"host_switch_mode": "STANDARD",
+			"nested_nsx": false,
+			"is_default": false,
+			"resource_type": "TransportZone",
+			"id": "5056121e-7fc2-4993-9732-1709b13db083",
+			"display_name": "tz-hahhatest",
+			"description": "VLAN Transport-Zone",
+			"_create_time": 1624882393273,
+			"_last_modified_user": "admin",
+			"_last_modified_time": 1624882393273,
+			"_system_owned": false,
+			"_create_user": "admin",
+			"_protection": "NOT_PROTECTED",
+			"_revision": 0,
+			"_schema": "/v1/schema/TransportZone"
+		}
+	],
+	"result_count": 3,
+	"sort_by": "display_name",
+	"sort_ascending": true
+}
